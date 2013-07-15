@@ -21,7 +21,6 @@ include_recipe "runit"
 
 gem_package "god" do
   action :install
-  gem_binary "/usr/bin/gem"
 end
 
 directory "/etc/god/conf.d" do
